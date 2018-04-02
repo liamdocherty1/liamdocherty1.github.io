@@ -1,0 +1,158 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: .5rem
+}
+
+.masthead {
+  color: #fff;
+  min-height: 30rem;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.masthead h1 {
+  margin: 0;
+  padding: 0
+}
+
+@media (min-width:992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0.3rem 0.2rem 0 #fff;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem
+}
+
+.mt-4, .my-4 {
+  margin-top: 1.5rem !important
+}
+
+hr.black {
+  border-color: black;
+  max-width: 3.125rem;
+  border-width: 0.2rem;
+}
+
+hr.white {
+  border-color: white;
+  max-width: 3.125rem;
+  border-width: 0.2rem;
+}
+
+hr.home {
+  border-color: white;
+  max-width: 9rem;
+  border-width: 0.2rem;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.txtlink2 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.txtlink2:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*==================================
+=           navbar                 =
+==================================*/
+
+.navbar {
+  display: none;
+  background-color: #f7f7f7;
+}
+
+nav ul li a {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #000;
+}
+
+nav ul li:after {
+  text-decoration: underline;
+  color: #000;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50);
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}

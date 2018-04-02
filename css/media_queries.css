@@ -1,0 +1,152 @@
+
+/*==================================
+=           Media queries          =
+==================================*/
+
+/* first section background */
+
+@media (max-width: 575px) {
+  .masthead {
+    background-color: #333;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .masthead {
+    background-color: #333;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .masthead {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 58, 82, 0.8)), to(rgba(50, 58, 82, 0.8))), url(../images/header3.jpg);
+    background: linear-gradient(to bottom, rgba(50, 58, 82, 0.8), rgba(50, 58, 82, 0.8)), url(../images/header3.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .masthead {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 58, 82, 0.8)), to(rgba(50, 58, 82, 0.8))), url(../images/header3.jpg);
+    background: linear-gradient(to bottom, rgba(50, 58, 82, 0.8), rgba(50, 58, 82, 0.8)), url(../images/header3.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  }
+
+@media (min-width: 1200px) {
+  .masthead {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 58, 82, 0.8)), to(rgba(50, 58, 82, 0.8))), url(../images/header3.jpg);
+    background: linear-gradient(to bottom, rgba(50, 58, 82, 0.8), rgba(50, 58, 82, 0.8)), url(../images/header3.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* navbar "front-end web dev text" */
+
+@media (max-width: 575px) {
+  .navbar-brand {}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
+
+/* branding aspect */
+
+@media (max-width: 575px) {
+  .brand-pic {
+    height: 8rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .brand-pic {}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .brand-pic {
+    height: 10rem;
+  }
+  .branding {
+    height: 25vh;
+    padding-top: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .brand-pic {
+    height: 10rem;
+  }
+  .branding {
+    height: 25vh;
+    padding-top: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .brand-pic {
+    height: 10rem;
+  }
+  .branding {
+    height: 25vh;
+    padding-top: 1.2rem;
+  }
+}
+
+/* about */
+.parallax {
+  /* The image used */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 58, 82, 0.8)), to(rgba(50, 58, 82, 0.8))), url(../images/world.jpeg);
+  background: linear-gradient(to bottom, rgba(50, 58, 82, 0.8), rgba(50, 58, 82, 0.8)), url(../images/world.jpeg);
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 575px) {
+  .parallax {
+    height: 140%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .parallax {
+    height: 140%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .parallax {
+    height: 155%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .parallax {
+    height: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parallax {
+    height: 90%;
+  }
+}
